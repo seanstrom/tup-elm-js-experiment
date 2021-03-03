@@ -1,3 +1,0 @@
-: index.html ../hello/hello.module.js \
-|> npx parcel build index.html \
-|> ^\dist ^\.cache

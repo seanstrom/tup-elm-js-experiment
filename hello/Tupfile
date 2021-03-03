@@ -1,5 +1,0 @@
-!makeHello = |> npx elm make hello.elm --output=hello.js && node wrap-elm.js hello.js |>
-
-: hello.elm \
-|> !makeHello \
-|> hello.js hello.module.js ^elm-stuff\/
