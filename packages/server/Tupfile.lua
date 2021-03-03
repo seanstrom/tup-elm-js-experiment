@@ -1,7 +1,7 @@
 local config = (
   function ()
     inputs =
-      { 'index.html', '../hello/hello.module.js' }
+      { 'index.html', pkg .. 'hello/hello.module.js' }
 
     outputs =
       { '^dist', '^.cache' }
